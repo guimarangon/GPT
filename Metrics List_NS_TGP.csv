@@ -1,0 +1,252 @@
+﻿GROUP;HIERARCHY;KPI;GRANULARITY;CAMPARISONS;FREQUENCY;DATA TYPE;CURRENTLY AVAILABLE? (Y/N);CURRENTLY NECESSARY? (Y/N);DATA SOURCE;ACCESS LEVEL
+FINANCIAL RESULTS;1;"TOTAL REVENUE
+
+Sales Revenue
++ Other Revenue";"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+HC";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";CALCULATED;;;;
+FINANCIAL RESULTS;1.1;"SALES REVENUE
+
++ # Sales
+*AVERAGE TICKET PRICE";"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+HC";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;1.1.1;# SALES;"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+HC";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;1.1.2;AVERAGE TICKET PRICE;"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";CALCULATED;;;;
+FINANCIAL RESULTS;1.2;OTHER REVENUE;"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;1.3;"LTV
+
+AVG Revenue
+/AVG Customer Lifespan";"Category
+Product
+Client
+?
+/CAC";?;?;CALCULATED;;;;
+FINANCIAL RESULTS;2;"TOTAL EXPENSES
+
++ COGS
++ Operating Expenses";"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+Abs / % of REVENUE";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";CALCULATED;;;;
+FINANCIAL RESULTS;2.1;"COGS
+
++ Direct Labor
++ Direct Materials
++ Subcontractor Costs";"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+Abs / % of REVENUE";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;3;GROSS PROFIT;"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+Abs / % of REVENUE (GPM)
+HC";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";CALCULATED;;;;
+FINANCIAL RESULTS;2.2;"OPERATING EXPENSES
+
++ Salaries and Wages
++ Rent Expense
++ Utilities
++ Office Supplies
++ Insurance
++ Advertising and Marketing
++ Professional Fees
++ Travel and Entertainment
++ Other Operating Expenses";"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+Abs / % of REVENUE";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;2.3;CAC;"Category
+Product
+Client
+Month/BGT
+Quarter/BGT
+Year//BGT
+Abs";?;?;CALCULATED;;;;
+FINANCIAL RESULTS;4;EBITDA;"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+Abs / % of REVENUE (OPM)
+HC";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";CALCULATED;;;;
+FINANCIAL RESULTS;4.1;"ITDA
+
++ Interest Expense
++ Income Taxes
++ Depreciation
++ Amortization
+";"Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;5;NET PROFIT;"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+Abs / % of REVENUE (NPM/ROS)
+HC";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";CALCULATED;;;;
+FINANCIAL RESULTS;6;"ROI
+
++ Cost of Investment
+/Net Profit";"Project/BGT
+Product/BGT";;"Monthly
+Quarterly
+Yearly";CALCULATED;;;;
+FINANCIAL RESULTS;7;"CASHFLOW
+
++ Inflows
+- Outflows
+
+OCF (Operating Cash Flow)
+FCF (Free Cash Flow)
+CCC (Cash Conversion Cycle)
+
+Luquidity Current Ratio
+Luquidity Quick Ratio
+Cash Ratio";"Category
+Product
+Client
+Month/MTD/BGT
+Quarter/QTD/QTG/BGT
+Year/YTD/YTG/BGT
+Abs / % of REVENUE";"MoM - PM/PY/BGT
+QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Monthly
+Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;8;"CAPITAL
+
+Investment Contribution
+# of Partners
+# of Rounds
+Validated Valuation";Total;"QoQ- PQ/PY/BGT
+YoY- PY/BGT";"Quarterly
+Yearly";PRIMARY;;;;
+FINANCIAL RESULTS;9;"EQUITY
+
++ Beginning Equity
++ Net Profit
+- Dividends
++ Additional Capital Contributions
++/- Other Adjustments";"Total
+Per Partner";"QoQ- PQ/PY/BGT
+YoY- PY/BGT
+CAGR";"Quarterly
+Yearly";CALCULATED;;;;
+;;;;;;;;;;
+FINANCIAL RESULTS;?;"EQUITY WALLET
+
+# Companies
+Name of Companies
+Wallet Total Value
+Wallet Composition";?;"QoQ- PQ/PY/BGT
+YoY- PY/BGT";"Quarterly
+Yearly";CALCULATED;;;;
+;;;;;;;;;;
+FINANCIAL RESULTS;?;BREAK-EVEN TGP;?;?;?;CALCULATED;;;;
+;;;;;;;;;;
+FINANCIAL RESULTS;?;"DIVIDENDS
+
+Accumulated
+Projected";"Total
+Per Partner";?;?;PRIMARY;;;;
